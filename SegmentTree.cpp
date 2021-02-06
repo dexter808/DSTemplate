@@ -58,7 +58,7 @@ class STtree{
 			return func(querry(l,min(m,r),v*2,tl,m),querry(max(m+1,l),r,v*2+1,m+1,tr));
 		}
 	}
-	void update(int pos,int new_val,int v=1,int tl=0,int tr=-1)
+	void update(int pos,T new_val,int v=1,int tl=0,int tr=-1)
 	{
 		if(tr==-1)
 			tr+=n;
