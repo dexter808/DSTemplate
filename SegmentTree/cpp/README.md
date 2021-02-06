@@ -1,4 +1,4 @@
-#An Example Usage
+# An Example Usage
 
 1. An array of size 5 with elements 1,2,3,4,5 is decclared. 
 
