@@ -8,7 +8,7 @@
 	a) Binary Function required is Add(a,b) which returns a+b and,
 	b) The redundant (or the identity) value for this function is 0. Since, **Add(a,0)=a**
 
-**
+~~~
 int Add(int a,int b)
 {
 	return a+b;
@@ -25,4 +25,4 @@ int main()
 	cout<<tr.querry(0,2)<<"\n";
 	return 0;
 }
-**
+~~~
