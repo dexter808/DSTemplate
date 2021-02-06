@@ -21,12 +21,12 @@ class STtree{
     T RD;
     int n;
     public:
-	STtree(vector<T> a,int s,T rd,T(*function)(T,T))
+	STtree(vector<T> a,T rd,T(*function)(T,T))
 	{
 		func=function;
 		ar=a;
-		t.resize(4*s);
-		n=s;
+		n=a.size();
+		t.resize(4*n+1);
 		RD=rd;
 		build(1,0,n-1);
 	}
@@ -76,10 +76,6 @@ class STtree{
 	}
 };
 
-
-
-/*EXAMPLE USAGE	:
-*/
 int Add(int a,int b)
 {
 	return a+b;
@@ -89,8 +85,8 @@ int main()
 	//Vector of elements
 	vector<int> A={1,2,3,4,5};
 	//Initializing and building the segment tree
-	STtree<int> tr(A,5,0,Add);
-	//Using tr
+	STtree<int> tr(A,0,Add);
+	//Using tree
 	cout<<tr.querry(0,2)<<"\n";
 	tr.update(1,4);
 	cout<<tr.querry(0,2)<<"\n";
