@@ -5,4 +5,4 @@ This Repository aims to provide Data Structures ready to use templates.I have us
 
 # Usage
 
-Just copy the code or download the file by opening a folder for a data structure and then choose your language folder, inside which you will find the file.
+Just copy the code or download the file by opening a folder for a data structure and then choosing your language folder, inside which you will find the file.
